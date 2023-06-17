@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main = prints all possible combination of single digit numbers
+ * main = Entry point
+ * Description: prints all possible combination of single digit numbers
  * Return: Always 0
  */
 int main(void)
