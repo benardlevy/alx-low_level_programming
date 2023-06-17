@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - programm that  print the last digit of the number stored in the variablei
+ * main - Entry point
+ * Description: get the last digit of a number
  * Return: Always 0
  */
 int main(void)
