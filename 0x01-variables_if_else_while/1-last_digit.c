@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Entry
+ * main - programm that  print the last digit of the number stored in the variablei
  * Return: Always 0
  */
 int main(void)
@@ -12,12 +12,12 @@ int main(void)
 	int a;
 
 	srand(time(0));
-	n = rand() = RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 
 	if (a > 5)
 	{
-		printf("Last digit of %d and is greater than 5\n", n, a);
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
 	else if (a == 0)
 	{
