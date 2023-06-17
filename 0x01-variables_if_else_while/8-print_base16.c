@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	int num;
-	char la;
+	int n;
+	int a;
 
-	for (num = 0; num < 16; num++)
-		putchar ((num % 10) + '0');
+	for (n = 48; n <= 57; n++)
+		putchar(n);
 
-	for (la = 'a'; la <= 'f'; la++)
-		putchar(la);
+	for (a = 97; a <= 102; a++)
+		putchar(a);
 
 	putchar('\n');
 	return (0);
