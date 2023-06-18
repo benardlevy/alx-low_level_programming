@@ -4,17 +4,16 @@
 /**
  * main - Entry point
  * Description: prints all possible different combinations of two digits
- * Return: Always 0
+ * Return: Always 0(Success)
  */
 
 int main(void)
 {
-	int n;
-	int m;
+	int n, m;
 
 	for (n = 0; m < 9; n++)
 	{
-	for (m = n + 1; n <= 9; m++)
+	for (m = n + 1; m <= 9; m++)
 	{
 	if (m != n)
 	{
