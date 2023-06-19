@@ -11,29 +11,23 @@ int main(void)
 {
 	int n, m;
 
-	for (n = '0'; m < '9'; n++)
+	for (n = 48; n <= 56; n++)
 	{
-	for (m = n + 1; m <= '9'; m++)
+
+	for (m = 49; m <= 57; m++)
 	{
-	if (m != n)
+	if (m > n)
 	{
 	putchar(n);
 	putchar(m);
-	if (n == '8' && m == '9')
-	continue;
+	if (n != 56 || m != 57)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	}
 	}
 	}
 	putchar('\n');
 	return (0);
 }
-
-
-
-
-
-
-
-
