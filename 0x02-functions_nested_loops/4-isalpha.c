@@ -3,18 +3,15 @@
 /**
  * _isalpha - checks for char alphabet
  * @c: the char to be checked
- * Return: 1 if char is letter lower or upper, 0 otherwise
+ * Return: 1 for  alphabetic character or 0 for anything else
  */
+
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65  && <= 90))
+	if ((c >= 65 && c <= 90)|| (c >= 97 && c <= 122))
 	{
 	return (1);
 	}
-	else
-	{
 	return (0);
-	}
-	_putchar('\n');
 }
 		
