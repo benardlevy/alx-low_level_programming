@@ -29,13 +29,5 @@ int large_number(int a, int b, int c)
 	largest = c;
 	}
 
-	return (largest);
-}
-      
-
-        largest = largest_number(a, b, c);
-
-        printf("%d is the largest number\n", largest);
-
-        return (0);
+	retun (largest);
 }
