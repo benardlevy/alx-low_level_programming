@@ -4,7 +4,6 @@
 /**
  * free_grid - frees a 2 dimensional grid
  * @grid: The address of the two dimensional grid
- * @width: The width of the grid
  * @height: The height of the grid
  * Return: Nothing.
  */
