@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the opcodes of itself. 
+ * main - prints the opcodes of itself.
  * @argc: Number arguments supplied to the program.
  * @argv: Array of pointers to the arguments.
  * Return: Always 0.
