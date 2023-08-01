@@ -8,8 +8,10 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
+
     listint_t *head;
     listint_t *head2;
     listint_t *node;
@@ -38,4 +40,5 @@ int main(void)
     free_listint_safe(&head);
     printf("%p, %p\n", (void *)head2, (void *)head);
     return (0);
+
 }
